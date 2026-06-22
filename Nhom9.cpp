@@ -178,7 +178,7 @@ int main()
     cout << "BOOK INPUT:" << endl;
     book.input();
 
-    cout << "MAGAZINE:" << endl;
+    cout << "MAGAZINE INPUT:" << endl;
     magazine.input();
     cout << "\n INFORMATION" << endl;
     vector<LibraryItem*> items; //tính đa hình
