@@ -180,6 +180,7 @@ int main()
 
     cout << "MAGAZINE:" << endl;
     magazine.input();
+    cout << "\n INFORMATION" << endl;
     vector<LibraryItem*> items; //tính đa hình
     items.push_back(&book);
     items.push_back(&magazine);
@@ -187,7 +188,6 @@ int main()
 {
     item->displayInfo();
 }
-    cout << "\n INFORMATION" << endl;
 
     reader.displayInfo();
     librarian.displayInfo();
